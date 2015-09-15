@@ -7,7 +7,7 @@ stuff to look into:
 * [cbor](https://hackage.haskell.org/package/CBOR) - alternative to protobuf, it's haskell, so it's probably waayyy cooler
 
 approach to schema evolution when data is persisted in a db:
-1. Export data from db to json.
-2. Apply patches from version diff.
-3. Potentially apply extra transformation.
-4. Import transformed json to db.
+* Export data from db to json.
+* Apply patches from version diff.
+* Potentially apply extra transformation.
+* Import transformed json to db.
